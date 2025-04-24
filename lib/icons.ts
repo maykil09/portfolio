@@ -1,0 +1,31 @@
+export const techIcons = [
+    { src: "/assets/icons/html5.svg", alt: "html", width: 50, height: 50 },
+    { src: "/assets/icons/css3.svg", alt: "CSS", width: 50, height: 50 },
+    {
+        src: "/assets/icons/logo-js.svg",
+        alt: "Javascript",
+        width: 50,
+        height: 50,
+    },
+    {
+        src: "/assets/icons/logo-ts.svg",
+        alt: "Typscript",
+        width: 85,
+        height: 85,
+    },
+    { src: "/assets/icons/react.svg", alt: "React", width: 50, height: 50 },
+    { src: "/assets/icons/next-js.svg", alt: "Next", width: 50, height: 50 },
+    {
+        src: "/assets/icons/tailwind.svg",
+        alt: "Tailwind",
+        width: 50,
+        height: 50,
+    },
+    { src: "/assets/icons/nodejs.svg", alt: "Nodejs", width: 50, height: 50 },
+    { src: "/assets/icons/php.svg", alt: "PHP", width: 70, height: 70 },
+    { src: "/assets/icons/laravel.svg", alt: "laravel", width: 50, height: 50 },
+    { src: "/assets/icons/flutter.svg", alt: "flutter", width: 50, height: 50 },
+    { src: "/assets/icons/mysql.svg", alt: "flutter", width: 50, height: 50 },
+    { src: "/assets/icons/mongodb.svg", alt: "flutter", width: 50, height: 50 },
+    { src: "/assets/icons/docker.svg", alt: "docker", width: 50, height: 50 },
+];
