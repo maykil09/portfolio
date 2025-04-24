@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <section
             id="skills"
-            className="min-h-screen flex flex-col justify-center"
+            className="min-h-screen snap-start flex flex-col justify-center"
         >
             <SectionTitle title={"Skills / Tech Stack"} />
             <div className="grid grid-cols-5 items-center content-center gap-4">

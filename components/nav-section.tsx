@@ -2,17 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const Nav = () => {
-    const [scrolled, setScrolled] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 10);
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
-
+const Nav = ({ scrolled }: { scrolled: boolean }) => {
     return (
         <div
             className={`fixed z-50 px-6 py-3 flex justify-between items-center rounded-xl transition-all duration-300 mx-auto ${

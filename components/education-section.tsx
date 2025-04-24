@@ -7,7 +7,7 @@ const Education = () => {
     return (
         <section
             id="education"
-            className="min-h-screen flex flex-col justify-center"
+            className="min-h-screen snap-start flex flex-col justify-center"
         >
             <SectionTitle title={"Education"} />
             <motion.div

@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex flex-col justify-center"
+            className="min-h-screen snap-start flex flex-col justify-center"
         >
             <SectionTitle title={"About me"} />
             <p className="text-lg">

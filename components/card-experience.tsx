@@ -15,7 +15,6 @@ const CardExperience = ({ workExp }: { workExp: WorkExperience }) => {
                 <ul className="list-disc list-inside mt-2 text-sm">
                     {workExp.responsibilities.map(
                         (item: String, index: number) => {
-                            console.log(item);
                             return <li key={index}>{item}</li>;
                         }
                     )}

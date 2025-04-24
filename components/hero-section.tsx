@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="min-h-screen px-6 py-12 grid grid-cols-1 md:grid-cols-2 items-center relative overflow-hidden">
+        <section className="min-h-screen snap-start px-6 py-12 grid grid-cols-1 md:grid-cols-2 items-center relative overflow-hidden">
             <div className="z-10 flex justify-between md:justify-start">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}

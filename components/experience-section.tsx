@@ -5,11 +5,10 @@ import SectionTitle from "@/components/section-title";
 import { workExperiences } from "@/lib/works";
 
 const Experience = () => {
-    console.log(workExperiences);
     return (
         <section
             id="experience"
-            className="min-h-screen flex flex-col justify-center"
+            className="min-h-screen snap-start flex flex-col justify-center"
         >
             <SectionTitle title={"Experience"} />
             <div className="space-y-3">
