@@ -53,8 +53,8 @@ export const workExperiences: WorkExperience[] = [
         company: "Fligno PH",
         location: "Cagayan de Oro City, Philippines",
         position: "Associate Software Engineer",
-        startDate: "October 2023",
-        endDate: "June 2024",
+        startDate: "October 2021",
+        endDate: "June 2023",
         responsibilities: [
             "Designed and developed new projects, as well as enhanced existing ones, using Laravel and JavaScript frameworks (React), ensuring high-quality and scalable solutions.",
             "Integrated third-party APIs to extend project functionalities, enhancing user experience and system capabilities.",
@@ -66,8 +66,8 @@ export const workExperiences: WorkExperience[] = [
         company: "CSS CORE Inc.",
         location: "Cagayan de Oro City, Philippines",
         position: "Technical Support",
-        startDate: "February 2023",
-        endDate: "February 2024",
+        startDate: "February 2020",
+        endDate: "February 2021",
         responsibilities: [
             "Maintained and monitored computer networks and systems, ensuring optimal performance and minimizing downtime.",
             "Set up and configured systems based on detailed instructions and diagrams, troubleshooting and resolving technical issues efficiently.",
